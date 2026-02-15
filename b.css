@@ -1,0 +1,644 @@
+body{
+    margin: 0px;
+}
+.abuja{
+    background: rgb(11, 11, 49);
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    position: sticky;
+    top: 0px;
+    background: blue;
+    margin-bottom: 100px;
+}
+.navbar>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.lagos{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 40px;
+
+}
+.benin{
+    padding-right: 100px;
+}
+.for-button button{
+    padding-bottom: 5px;
+    border: 1px solid white;
+    /* width: 7%;   */
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+} 
+
+.ibadan{
+    width: 45%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+}
+.ibadan h1{
+    font-size: 50px;
+}
+.ibadan p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.case{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    gap: 50px;
+    
+}
+.oyo{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 25px ;
+    border:none;
+    border-radius:  100px;
+    background:rgb(0, 128, 255);
+    color: white;
+}
+.promise{
+    font-size:25px ;
+    /* font-weight: 900; */
+}
+
+.add{
+    background: rgb(11, 11, 49);
+    color: white;
+    /* height: 700px; */
+    padding: 40px;
+    text-align: center;
+    /* margin-bottom: 60px; */
+    padding-bottom: 100%;
+}
+.add-up{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.submit{
+    color: blue;
+    font-size: 15px;
+}
+.login{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.add-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    margin-bottom: 30px
+    
+}
+.fans{
+    background: blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.fans>i{
+    color: white;
+    font-size:30px;
+}
+.bby{
+    width: 30%;
+    text-align: center;
+}
+.add-text{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 30%; */
+}
+.sub{
+    color: blue;
+    font-size: 15px;
+}
+.log{
+    font-size: 30px;
+    margin-top: 15px;
+    font-size: 50px;
+}
+.add-text>p{
+    margin-bottom: 50px;
+}
+.small-baby{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add-text>p{
+    font-size: 10px;
+}
+ .benue{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    justify-content: space-between;
+    /* gap: 30px; */
+    
+} 
+.man2{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.shola{
+    width: 20%;
+    height: 350px;
+    background: #0a1647;
+    border-radius:10px;
+     /* text-align: center; */
+     padding: 20px;
+     color: white;
+     overflow: hidden;
+}
+.shola>i{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+}
+.lokoja{
+    font-size: 18px;
+}
+.big-aunt{
+    /* padding-bottom: 100%; */
+}
+.mr-ceo{
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.mrs-ceo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.miss-ceo{
+ background-color: #0e264c;
+ /* width: 450px; */
+ padding: 20px;
+ color: white;
+ text-align: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ border-radius: 10px;
+}
+.miss-ceo>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ceo{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.lokojo{
+    font-size: 18px;
+}
+.add-down{
+    /* padding-bottom: 100%; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+}
+.front{
+    width: 40%;
+    text-align: left;
+}
+.back{
+    width: 40%;
+    height: 500px;
+}
+.back>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cv;
+}
+.big-button{
+    border: none;
+    border-radius: 50px;
+    padding: 18px 15px;
+    color: white;
+    background: rgb(52, 91, 208)
+
+}
+.big-button i{
+    padding: 10px;
+    background: #5090e9;
+    border-radius: 100%;
+}
+.small-button{
+    /* width: 10px; */
+    border-radius: 50px;
+    padding: 18px 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+ 
+}
+.small-button i{
+    padding: 10px;
+    background: white;
+    border-radius: 100%;
+    color: black;
+}
+.fares{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+.fair{
+    color: blue;
+    font-size: 20px;
+}
+.fee{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.fame{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 600px;
+    background:rgb(15, 15, 108);
+    padding:0px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+select{
+    height: fit-content;
+}
+.idea{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.ade{
+    width:33%;
+    /* height: 350px; */
+    background: #0a1647;
+    border-radius:10px;
+     text-align:left;
+     padding-bottom: 10px;
+     color: white;
+     /* overflow: hidden; */
+    margin-right: auto;
+    margin-left: auto; 
+}
+.ade>div{
+    padding: 10px;
+}
+.secure{
+    display: flex;
+    flex-direction: row;
+}
+.sola{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    justify-content: center;
+    gap: 30px;
+    
+} 
+.coin{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.lag{
+    font-size:20px;
+}
+.everything{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.whole-div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.two-topdiv{
+    padding: 20px;
+}
+.whole-box{
+    background: #0a1647;
+    border-radius:10px;
+     text-align: center;
+     padding:60px;
+     color: white;
+     /* overflow: hidden; */
+    margin-right: auto;
+    margin-left: auto;
+    gap: 50px;
+}
+label{
+    
+}
+.minor{
+    border-radius: 30px;
+    /* padding: 5px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    background: #0a1647;
+    border-radius:10px;
+     text-align: center;
+     padding:40px;
+     color: white;
+     /* overflow: hidden; */
+    margin-right: auto;
+    margin-left: auto;
+    gap: 50px;
+}
+.aria{
+    border-radius: 30px;
+    /* padding: 5px; */
+    padding-left: 60px;
+    padding-right: 60px;   
+}
+
+
+
+.yellow{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 10px;
+}
+.pink{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+.purple{
+    width: 30%;
+    background-color: rgb(7, 9, 81);
+    padding: 40px;
+    display: flex;
+    flex-direction:column;
+    margin-right: 20px;
+}
+.purple>input{
+    padding: 8px;
+    width:100%;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255,0.1);
+    
+}
+button{
+    border-radius: 50PX;
+    padding: 10px;
+    border: none;
+}
+.red{
+    width: 60%;
+    background-color: rgb(7, 15, 55)
+}
+.purple>textarea{
+    padding: 45px;
+    background: rgba(255, 255, 255,0.1);
+
+}
+.today{
+    display: flex;
+    flex-direction: row;
+    background: rgb(22, 33, 84);
+    margin: 40px;
+    padding: 5px;
+}
+.pairs{
+    width: 40%;
+}
+.topic{
+    width: 60%;
+}
+.topic>input{
+    padding-left: 20%;
+    padding-right: 30%;
+    border-radius: 50px;
+    /* margin-top: 20px; */
+    margin: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.crypto{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.picture{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.div>i{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+}
+.husband{
+    padding-right: 100px;
+}
+.crypto>p{
+    width:35px;
+}
+.nature>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.wife{
+    width: fit-content;
+    margin: 0px auto;
+}
+.wife>i{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.baby-crypto>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.baby-crypto>p{
+    /* width: 50%; */
+}
+
+
+@media screen and (max-width: 760px){
+.sola{
+    flex-direction: column;
+    background: purple;
+}
+.sola.ade{
+    width: 100%;
+    box-sizing: border-box;
+}
+.benue{
+    flex-direction: column;
+}
+.shola{
+    width: 90%;
+    /* background: yellow; */
+}
+.add-up{
+    width: 100%;
+}
+.add-up.miss-ceo{
+    width: 100%;
+    flex-direction: column;
+}
+.mrs.ceo{
+    width: 100%;
+    flex-direction: column;
+}
+.ibadan{
+    width: 100%;
+    text-align: center;
+}
+.add-up{
+    width: 100%;
+}
+.add-in{
+    flex-direction: column;
+}
+.bby{
+    width: 100%;
+}
+.button{
+    flex-direction: column;
+    width: 100%;
+}
+.small-baby{
+    width: 100%;
+}
+.mr-ceo{
+    flex-direction: column;
+}
+.mrs-ceo{
+    flex-direction: column;
+}
+.miss-ceo{
+    width: 90%;
+}
+.front{
+    width: 100%;
+}
+.add-down{
+    flex-direction: column;
+}
+.back{
+    width: 90%
+}
+.fares{
+    width: 100%;
+}
+.fame{
+    width: 380px;
+}
+.ade{
+    width: 100%;
+}
+.blue{
+    width: 100%;
+}
+.yellow{
+    flex-direction: column;
+}
+.red{
+    width: 100%;
+}
+.purple{
+    width: 81%;
+}
+.today{
+    flex-direction: column;
+}
+.pairs{
+    width: 100%;
+}
+.crypto{
+    flex-direction: column;
+}
+.baby-crypto{
+    width: 100%;
+    /* font-size: 20px; */
+}
+.rondo{
+    font-size: 20px;
+}
+}
+    

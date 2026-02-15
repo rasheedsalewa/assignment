@@ -1,0 +1,49 @@
+body{
+    background-image: url(image.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+}
+     /* GLASSMORPHISIM */ 
+form{
+    padding: 40px 40px 40px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+button{
+
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    width:100%;
+    padding: 15px 10px 15px 10px;
+    margin-bottom: 30px;
+}
+label{
+    font-size:16px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+}

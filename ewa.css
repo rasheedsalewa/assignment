@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(116, 211, 211);
+}
+table{
+    background-color: rgb(50, 72, 50);
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: none;
+    padding: 15px; 
+    color: white;
+    text-align: center;
+}
+.dark{
+    background: #014243
+}
+.yel{
+    color: yellow;
+}
+.light{
+    background: #016d6f
+}
+
+

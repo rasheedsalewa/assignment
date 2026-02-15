@@ -1,0 +1,35 @@
+body{
+    background-image: url(picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: buttom;
+}
+    /* GLASSMORPHISM */
+form{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* text-align: center */
+    width: 450px;
+    padding: 40px 40px 40px 40px;
+    text-shadow: inset 0px 0px 30px white;
+    margin-left: auto;
+    margin-right: auto;
+    /* glassmorphism */
+    backdrop-filter: (10px);
+}
+
+input{
+    border: none;
+    border-radius: 200px;
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;   
+}
+button{
+    background:rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 200px;
+    width:100%;
+    padding: 10px 20px 10px 20px; 
+}

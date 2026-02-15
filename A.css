@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+.add{
+    background: rgb(11, 11, 49);
+    color: white;
+    height: 700px;
+    padding: 40px;
+    text-align: center;
+}
+.add-up{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+.submit{
+    color: blue;
+    font-size: 15px;
+}
+.login{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.add-in{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    margin-bottom: 30px
+    
+}
+.fans{
+    background: blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.fans>i{
+    color: white;
+    font-size:30px;
+}
+.bby{
+    width: 30%;
+    text-align: center;
+}

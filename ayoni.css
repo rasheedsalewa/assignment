@@ -1,0 +1,232 @@
+body{
+    margin: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    border-bottom: 1px solid #eee;
+}
+.logo{
+    font-style:italic;
+    font-family: 500;
+}
+.lagoes{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 40px;
+
+}
+.icon>i{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.memes{
+    text-align: center;
+    font-weight: 100;
+}
+.choose{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.choose input{
+    padding:12px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+.choose button{
+    padding: 12px 25px;
+    border-radius: 15px;
+    border: none;
+    background: black;
+    color: white;
+}
+.big-food{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.right-food{
+    width: 60%;
+     /* display: flex;
+    flex-direction: row; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.foods{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.image{
+    width: 240px;
+    border:none;
+    /* margin-left: 100px; */
+     border-radius: 10px;
+    border: none;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.hype{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+.mama{
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+}
+.left-food{
+    width: 40%;
+}
+.picture{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.shay{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px; 
+}
+.Universal{
+    background: #2f6d55;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 450px;
+    height: 450px;   
+}
+.Universal h3{
+    font-style: italic;
+    font-size: 30px;
+}
+.Universal p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.under{
+     object-fit: contain;
+     border-radius: 150px;
+     border: none;
+     width: 300px;
+    height: 300px;
+}
+.number{
+    text-align: center;
+} 
+.bby{
+    background: black;
+    color: white;
+     padding: 12px;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+}
+.shy{
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    margin: 10px;
+}
+.Neolife{
+   background: #e9f6f7;
+   margin: 60px; 
+   padding: 50px;
+   border-radius: 30px;
+   text-align: center;
+}
+.sibesibe input{
+    padding: 12px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+}
+.sibesibe button{
+    padding: 12px 25px;
+    border-radius:12px;
+    border: none;
+    background: black;
+    color: white;
+}
+.note{
+     text-align: end;
+    justify-content: last baseline;
+    align-items: last baseline;
+}
+.wow{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 150px;
+}
+.novbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    border-bottom: 1px solid #eee;
+}
+.novbar p{
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+b{
+    color: red;
+}
+@media screen and (max-width: 760px){
+.lagoes{
+    flex-direction: column;
+}
+.big-food{
+flex-direction: column;
+}
+
+.right-food{
+    width: 100%;
+}
+.left-food{
+    width: 100%;
+}
+.shay{
+    flex-direction: column;
+}
+.under{
+    width: 600px;
+}
+.wow{
+    width: 400px;
+}
+.mama{
+    flex-direction: column;
+}
+.Universal{
+    width: 94%;
+    background: green
+}
+}

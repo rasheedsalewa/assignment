@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    background: white;
+}
+.math{
+    background: greenyellow;
+    /* width: 100%; */
+    height: 700px;
+    padding: 40px;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+.english{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.english>div{
+    width: 20%;
+    text-align: center;
+}
+.biology{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+}
+button{
+    background: rgb(255, 208, 0);
+    color:black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* navbar */
+.nav{
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 80px;
+    box-shadow: 0px 3px 6px black;
+    position: relative;
+    z-index: 10;
+  }
+  .logo-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .menu-sec{
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+  }
+  li{
+    padding: 0px 10px;
+  }
+  .menu-item{
+    padding: 8px 5px;
+    margin: 2px;
+    color: black; 
+    /* flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; */ 
+}
+.younger-button{
+    margin-top: 10px;
+   padding: 10px 8px 10px 8px;
+   /* border-radius: 2px solid; */
+   background: blue;
+   color: white;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }
+

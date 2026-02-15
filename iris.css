@@ -1,0 +1,35 @@
+body{
+    background-image: url(seven.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* text-align: center */
+    width: 450px;
+    padding: 40px 40px 40px 40px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset 0px 0px 30px white;
+}
+    input{
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    margin:0px 0px 20px 0px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+  
+
+button{
+
+    background:rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    border: none;
+    width:100%;
+    padding: 10px 20px 10px 20px;
+}
